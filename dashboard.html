@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome, [Username]!</h2>
+        <section>
+            <h3>Manage Accounts</h3>
+            <!-- Account Management Content -->
+        </section>
+        <section>
+            <h3>Manage Cards</h3>
+            <!-- Card Management Content -->
+        </section>
+        <section>
+            <h3>Transaction History</h3>
+            <!-- Transaction History Content -->
+            <button onclick="downloadPDF()">Download as PDF</button>
+        </section>
+        <section>
+            <h3>Profile & Account Details</h3>
+            <!-- Profile Management Content -->
+        </section>
+        <button onclick="logout()">Logout</button>
+    </div>
+    
+    <script>
+        function downloadPDF() {
+            // Code for downloading transaction history as PDF.
+        }
+
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
